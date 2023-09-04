@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
-@Repository
+
 public class HotelManagementRepository {
     HashMap<String, Hotel> hotelMap= new HashMap<>();
     HashMap<Integer, User> userMap=new HashMap<>();
