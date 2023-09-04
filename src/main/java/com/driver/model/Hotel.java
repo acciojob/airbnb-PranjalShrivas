@@ -10,7 +10,9 @@ public class Hotel {
     private List<Facility> facilities;
 
     private int pricePerNight;
+    public Hotel(){
 
+    }
     public Hotel(String hotelName, int availableRooms, List<Facility> facilities, int pricePerNight) {
         this.hotelName = hotelName;
         this.availableRooms = availableRooms;
